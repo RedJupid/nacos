@@ -1,0 +1,14 @@
+
+spring:
+  application:
+    name: nacos-discovery-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+      config:
+        server-addr: 127.0.0.1:8848
+        file-extension: yml
+        prefix: nacos-discovery-gateway
+server:
+  port: 8040
